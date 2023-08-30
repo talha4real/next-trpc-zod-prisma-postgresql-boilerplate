@@ -1,0 +1,17 @@
+export default {
+  logo: require("../../public/assets/logo.svg"),
+  login_img: require("../../public/assets/login-message.svg"),
+  signup_img: require("../../public/assets/signup-message.svg"),
+  badge_light_green: require("../../public/assets/badge-light-green.svg"),
+  badge_blue: require("../../public/assets/badge-blue.svg"),
+  badge_green: require("../../public/assets/badge-green.svg"),
+  badge_pink: require("../../public/assets/badge-pink.svg"),
+  badge_red: require("../../public/assets/badge-red.svg"),
+  badge_yellow: require("../../public/assets/badge-yellow.svg"),
+  badge_purple: require("../../public/assets/badge-purple.svg"),
+  badge_lihtblue: require("../../public/assets/badge-lightblue.svg"),
+  badge_half_purple: require("../../public/assets/badge-half-purple.svg"),
+  badge_full_red: require("../../public/assets/bafge-full-red.svg"),
+  badge_half_green: require("../../public/assets/badge-half-green.svg"),
+  badge_skin: require("../../public/assets/badge-skin.svg"),
+};

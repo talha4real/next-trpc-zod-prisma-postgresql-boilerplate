@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: Poppins, sans-serif;
+}
+.App {
+  text-align: center;
+}
+.success-page-style{
+  padding-bottom:50px !important;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #EBEEF1;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.div-style{
+  padding: 50px 50px 100px 50px;
+  border-radius: 25px;
+  border-radius: 25px;
+  border: 1px solid #EBEEF1;
+  background: #FFF;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.03);
+  /* display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px; */
+}
+
+.inner-card-div-style{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+.outer-border {
+  border: 2px solid #fff;
+  transition: border-color 0.3s;
+  border-radius: 19px;
+  padding: 4px;
+}
+
+.outer-border:focus-within {
+  border: 2px solid #171A20;
+  border-radius: 19px !important;
+  padding: 4px;
+  outline: none;
+}
+.double-border {
+  transition: border-color 0.3s;
+  color: #171A20;
+  font-family:'Montserrat', sans-serif;
+  font-size: 13px;
+}
+
+.double-border:focus,
+.double-border:focus-within {
+  border: 1px solid #171A20 !important;
+  outline: none;
+  color: #171A20;
+  font-size: 13px;
+}
+
+
+.signup-form-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px; 
+  letter-spacing: -0.44px ;
+}
+.text-style{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.text-min{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.input-style{
+  border-radius: 16px;
+  border: 1px solid #B5B5B5;
+}
+
+.btn-style{
+  border-radius: 13px;
+}
+.signup-fields-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+}
+.confirm-text{
+  letter-spacing: -0.8px;
+  line-height: 13.41px;
+}
