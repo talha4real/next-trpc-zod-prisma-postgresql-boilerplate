@@ -1,4 +1,4 @@
-# Talha Tyne Test
+# Boiler Plate for TRPC, TypeScript, Next.js, Prisma, Zod, and PostgreSQL.
 
 This is a web application built using TRPC, TypeScript, Next.js, Prisma, Zod, and PostgreSQL.
 
